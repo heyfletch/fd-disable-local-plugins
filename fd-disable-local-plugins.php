@@ -15,7 +15,7 @@ if (defined('LOCAL_DISABLED_PLUGINS')) {
   if (!empty($plugins_to_disable) && is_array($plugins_to_disable)) {
 
     // Use Mark Jaquith code
-    require_once(dirname(__FILE__) . '/vendor/DisablePlugins.php');
+    require_once(dirname(__FILE__) . '/fd-disable-local-plugins/DisablePlugins.php');
 
     $utility = new DisablePlugins($plugins_to_disable);
 
