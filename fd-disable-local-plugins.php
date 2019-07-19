@@ -19,7 +19,5 @@ if (defined('LOCAL_DISABLED_PLUGINS')) {
 
     $utility = new DisablePlugins($plugins_to_disable);
 
-    // Optional
-    error_log('Locally disabled plugins: ' . var_export($plugins_to_disable, true));
   }
 }
