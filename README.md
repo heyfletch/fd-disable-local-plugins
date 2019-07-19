@@ -6,6 +6,7 @@ Place this plugin (fd-disable-local-plugins.php & fd-disable-local-plugins subdi
 In wp-config.php (or local-config.php or config/environments for Bedrock), add:
 
 ```php
+// Disable on this environment only (be sure to install mu-plugin):
 define('LOCAL_DISABLED_PLUGINS', serialize([
   'autoptimize/autoptimize.php',
   'redis-cache/redis-cache.php',
@@ -22,6 +23,8 @@ define('LOCAL_DISABLED_PLUGINS', serialize([
 
 ## TODO
 Don't push active plugin options during WP Migrate DB Pro Push? Or, maybe not needed if this plugin does not change the settings in the options, just overrides them via wp-config.php. TBD.
+
+Remove Site Health Check's "You should remove inactive plugins" recommendation. 
 
 ## Credit
 [Kamil Grzegorczyk](https://kamilgrzegorczyk.com/2018/05/02/how-to-disable-plugins-on-certain-environment/) for the blog post and code that this plugin is based on.
