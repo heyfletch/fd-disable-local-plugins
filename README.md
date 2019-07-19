@@ -1,7 +1,7 @@
 # Disable Local Plugins
 Disable local plugins depending on the environment, e.g., local, development, staging, production.
 
-Place this plugin in your [mu-plugins directory](https://wordpress.org/support/article/must-use-plugins/).
+Place this plugin (fd-disable-local-plugins.php & vendor only) in your [mu-plugins directory](https://wordpress.org/support/article/must-use-plugins/).
 
 [Original Instructions](https://kamilgrzegorczyk.com/2018/05/02/how-to-disable-plugins-on-certain-environment/)
 
